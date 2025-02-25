@@ -25,7 +25,8 @@ def should_get_persona_feedback(state: State) -> str:
 
 def should_continue_editing(state: State) -> str:
     """Conditional router to determine if we should continue editing or finalize the draft."""
-    if state["feedback_type"] == FeedbackType.NONE:
+    # Only proceed to finalize if feedback_type is NONE and final_article is not set
+    if state["feedback_type"] == FeedbackType.NONE and "final_article" not in state:
         return "finalize_draft"
     
     # If we have human feedback, update the draft

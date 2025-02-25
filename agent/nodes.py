@@ -3,10 +3,10 @@ from typing import Dict, Any, List
 from langgraph.types import interrupt
 
 from .state import State, FeedbackType
-from ..services.llm import get_completion
-from ..services.search import search_internet
-from ..services.vector_db import query_vector_db
-from ..prompts import load_prompt
+from services.llm import get_completion
+from services.search import search_internet
+from services.vector_db import query_vector_db
+from prompts import load_prompt
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
@@ -219,7 +219,7 @@ def finalize_draft(state: State) -> Dict[str, Any]:
         
         logger.info(f"Finalizing draft version {state['draft_version']}")
         
-        # No need to do any processing, just mark it as the final version
+        # Return only the final_article key to avoid concurrent updates
         return {
             "final_article": final_draft
         }
