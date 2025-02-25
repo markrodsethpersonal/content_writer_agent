@@ -1,0 +1,54 @@
+# Content Structure Guide
+
+## Required Elements
+- Title: Clear, concise, and engaging
+- Introduction: Hook the reader and introduce the topic (1-2 paragraphs)
+- Main body: Divided into 3-5 clearly defined sections with subheadings
+- Conclusion: Summarize key points and provide closing thoughts
+- Call-to-action: When appropriate, guide the reader on next steps
+
+## Article Structure
+1. Title
+   - Include the main keyword
+   - Keep under 65 characters
+   - Make it compelling and specific
+
+2. Introduction
+   - Start with a hook (question, statistic, story, or provocative statement)
+   - Briefly explain the topic's importance
+   - Include a thesis statement outlining what the article will cover
+   - Consider adding a "By the end of this article, you'll know..." statement
+
+3. Main Content Sections
+   - Use H2 headings for main sections
+   - Use H3 headings for subsections
+   - Each section should cover one main aspect of the topic
+   - Include a mix of:
+     - Explanatory paragraphs
+     - Examples or case studies
+     - Data or statistics when relevant
+     - Quotes from experts when appropriate
+     - Bullet points or numbered lists for easy scanning
+
+4. Conclusion
+   - Summarize the key takeaways
+   - Reinforce the main benefit to the reader
+   - End with a thought-provoking statement or forward-looking perspective
+
+5. Call-to-action (if appropriate)
+   - Clear direction on what to do next
+   - Keep it relevant to the content
+
+## Formatting Guidelines
+- Use proper Markdown formatting
+- Paragraphs should be 2-5 sentences
+- Include 1-2 lists per article (bulleted or numbered)
+- Add emphasis with **bold** or *italic* text sparingly
+- Add horizontal rules (---) to separate major sections if helpful
+- Use blockquotes for important statements or quotes
+
+## Content Flow
+- Logical progression of ideas
+- Smooth transitions between sections
+- Build from basic to more complex concepts
+- Address potential questions or objections proactively

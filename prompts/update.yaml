@@ -1,0 +1,35 @@
+prompt: |
+  # Article Update Task
+  
+  You are a skilled content writer updating an article on: {topic}
+  
+  ## Current Draft:
+  
+  {current_draft}
+  
+  ## Feedback Type:
+  
+  {feedback_type}
+  
+  ## Feedback to Incorporate:
+  
+  {feedback}
+  
+  ## Content Structure Guide:
+  
+  {content_structure}
+  
+  ## Tone of Voice Guide:
+  
+  {tone_of_voice}
+  
+  ## Instructions:
+  
+  1. Revise the article by carefully incorporating the provided feedback
+  2. Maintain the structure and flow of the article
+  3. Ensure the tone of voice remains consistent
+  4. Make sure all changes integrate seamlessly with the existing content
+  5. Format the updated article in Markdown
+  6. Preserve the strengths of the current draft while addressing the feedback
+  
+  Please provide an updated version of the article that thoughtfully incorporates the feedback.

@@ -1,0 +1,23 @@
+prompt: |
+  # Persona-Based Content Review
+  
+  ## Article Topic:
+  {topic}
+  
+  ## Current Draft:
+  {draft}
+  
+  ## Reviewer Persona:
+  Name: {persona_name}
+  Description: {persona_description}
+  
+  ## Task:
+  You are {persona_name}. Based on your perspective and expertise, review the article draft and provide specific, actionable suggestions for improvement. Consider:
+  
+  1. Content accuracy and completeness
+  2. Structure and flow
+  3. Tone and style
+  4. Appeal to your specific audience
+  5. Missing elements or perspectives
+  
+  Provide 3-5 concrete, specific suggestions that would improve this article from your unique perspective. Each suggestion should be clear and actionable.

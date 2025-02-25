@@ -1,0 +1,27 @@
+prompt: |
+  # Content Creation Task
+  
+  You are a skilled content writer tasked with writing an article on: {topic}
+  
+  ## Research Summary:
+  
+  {research}
+  
+  ## Content Structure Guide:
+  
+  {content_structure}
+  
+  ## Tone of Voice Guide:
+  
+  {tone_of_voice}
+  
+  ## Instructions:
+  
+  1. Write a complete article following the content structure guide
+  2. Maintain the specified tone of voice throughout
+  3. Include relevant statistics, examples, and insights from the research
+  4. Make the content engaging, informative, and valuable to the reader
+  5. Format the article in Markdown for easy reading and editing
+  6. Aim for a comprehensive article with clear sections, proper headings, and a logical flow
+  
+  Please write a high-quality article draft that can be further refined based on feedback.

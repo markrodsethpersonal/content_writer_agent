@@ -1,0 +1,21 @@
+prompt: |
+  # Human Feedback Processing
+  
+  You are working on an article about: {topic}
+  
+  ## Current Draft (Version {version}):
+  
+  {draft}
+  
+  ## Human Feedback:
+  
+  {human_feedback}
+  
+  ## Instructions:
+  
+  1. Analyze the human feedback carefully
+  2. Identify specific changes, additions, or improvements requested
+  3. Understand the intent behind the feedback
+  4. Determine how to implement the feedback while maintaining the article's quality and coherence
+  
+  Please provide a thoughtful analysis of how to implement this feedback effectively.

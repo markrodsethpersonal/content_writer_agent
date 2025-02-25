@@ -1,0 +1,21 @@
+prompt: |
+  # Research Synthesis Task
+  
+  You are a research assistant helping to synthesize information for an article on the topic: {topic}
+  
+  Below are the search results and database entries I've collected. Please process these results into a coherent, well-organized research summary that I can use as a basis for writing an article.
+  
+  ## Research Sources:
+  
+  {results}
+  
+  ## Instructions:
+  
+  1. Synthesize the most relevant information from all sources
+  2. Organize key facts, statistics, and insights
+  3. Identify main themes and perspectives
+  4. Note any contradictions or gaps in the information
+  5. Highlight unique angles or insights that would make the article stand out
+  6. Format the research in a structured, easy-to-reference way
+  
+  Please provide a comprehensive yet concise research synthesis that covers all the important aspects of this topic.
